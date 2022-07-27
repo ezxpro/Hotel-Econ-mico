@@ -7,7 +7,7 @@ Gerenciador de hospedagens para pousada/pensão. Comecei a desenvolver aplicaç�
 
 # Criando e populando banco de dados
 Script para criar banco (Transact-SQL)
-https://github.com/ezxpro/MuayThai/blob/main/CriaBanco.sql
+https://github.com/ezxpro/Hotel-Economico/blob/main/CriaBanco.sql
 
 É necessário modificar o script para alterar os caminhos onde serão armazenados os arquivos do banco de dados.
 
