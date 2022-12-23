@@ -274,7 +274,7 @@
             this.Controls.Add(this.gridConsulta);
             this.Controls.Add(this.gpbQuarto);
             this.Name = "frmAltConsQuarto";
-            this.Text = "frmConsultaQuarto";
+            this.Text = "Consulta Quartos";
             this.Load += new System.EventHandler(this.frmConsultaQuarto_Load);
             this.gpbQuarto.ResumeLayout(false);
             this.gpbQuarto.PerformLayout();
