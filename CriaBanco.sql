@@ -1,9 +1,9 @@
 CREATE DATABASE [he_dados]
  CONTAINMENT = NONE
  ON  PRIMARY 
-( NAME = N'he_dados', FILENAME = N'C:\Users\Ezequiel\he_dados.mdf' , SIZE = 8192KB , FILEGROWTH = 65536KB )
+( NAME = N'he_dados', FILENAME = N'%userprofile%\he_db\he_dados.mdf' , SIZE = 8192KB , FILEGROWTH = 65536KB )
  LOG ON 
-( NAME = N'he_dados_log', FILENAME = N'C:\Users\Ezequiel\he_dados_log.ldf' , SIZE = 8192KB , FILEGROWTH = 65536KB )
+( NAME = N'he_dados_log', FILENAME = N'%userprofile%\he_db\he_dados_log.ldf' , SIZE = 8192KB , FILEGROWTH = 65536KB )
 GO
 ALTER DATABASE [he_dados] SET COMPATIBILITY_LEVEL = 130
 GO
